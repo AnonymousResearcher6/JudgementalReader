@@ -1,0 +1,12 @@
+# Install uv first: pip install uv
+# Then install these: uv pip install -r requirements.txt
+pandas
+numpy
+vllm
+transformers
+scikit-learn
+scipy
+statsmodels
+matplotlib
+seaborn
+tqdm

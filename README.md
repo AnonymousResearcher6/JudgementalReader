@@ -36,9 +36,16 @@ Our pipeline is designed for reproducible, large-scale evaluation of RAG groundi
 ## 🚦 Usage
 
 ### 1️⃣ Install Dependencies
+We recommend using [uv](https://github.com/astral-sh/uv) for lightning-fast installation.
+
 ```bash
-pip install -r requirements.txt
-uv pip install vllm  # Required for generate_data.py and label.py
+# 1. Install uv
+pip install uv
+
+# 2. Create environment and install dependencies
+uv venv
+source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+uv pip install -r requirements.txt
 ```
 
 ### 2️⃣ Data Preparation
