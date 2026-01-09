@@ -39,10 +39,10 @@ Our pipeline is designed for reproducible, large-scale evaluation of RAG groundi
 We recommend using [uv](https://github.com/astral-sh/uv) for lightning-fast installation.
 
 ```bash
-# 1. Install uv
+# Install uv
 pip install uv
 
-# 2. Create environment and install dependencies
+# Create environment and install dependencies
 uv venv
 source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
 uv pip install -r requirements.txt
